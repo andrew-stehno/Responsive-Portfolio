@@ -16,7 +16,7 @@ body {
 #name {    
     width: 350px;
     height: 90px;
-    margin-left: 150px;
+    margin-left: 200px;
     padding-top:20px;
     padding-left: 30px;
     box-sizing: border-box;
@@ -26,18 +26,37 @@ body {
     top: -24px;
 }
 
-.indx {
+li {
+    list-style-type: none;
     float: left;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    display: block;
+    position: relative;
+    right: -500px;
+    border-right: 1px solid #cccccc;
 }
 
-.portf {
-    float: left;
+li:last-child {
+    border-right: none;
 }
 
-.cont {
-    float: left;
+a {
+    text-decoration: none;
+    color: #cccccc;
 }
-    
+
+a:hover {
+    text-decoration: none;
+    background-color: #4aaaa5;
+}
+
+a:active {
+    padding: 8px;
+    text-decoration: none;
+}
+
 .about, .port-body, .contact-body {
     clear: both;
 }
@@ -45,6 +64,6 @@ body {
 .about {
     width: 66%;
     height: 800px;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 

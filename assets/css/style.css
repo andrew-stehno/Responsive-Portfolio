@@ -71,7 +71,9 @@ a:active {
     background-color: #ffffff;
 }
 
- #about-me {
+ #about-me,
+ #port-title,
+ #contact {
     width: 96%;
     color: #4cccc5;
     border-bottom: solid 2px #cccccc;
@@ -105,21 +107,11 @@ footer {
 
 .port-body {
     width: 66%;
-    height: 450px;
+    height: 600px;
     margin-left: 250px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
     position: relative;
-}
-
-#port-title {
-    width: 96%;
-    color: #4cccc5;
-    border-bottom: solid 2px #cccccc;
-    padding-top: 20px;
-    margin-left: 20px;
-    box-sizing: border-box;
-    float: left;
 }
 
 .contact-body {
@@ -131,15 +123,4 @@ footer {
     background-color: #ffffff;
     position: relative;
 }
-
-#contact {
-    width: 96%;
-    color: #4cccc5;
-    border-bottom: solid 2px #cccccc;
-    padding-top: 20px;
-    margin-left: 20px;
-    box-sizing: border-box;
-    float: left;
-}
-
 

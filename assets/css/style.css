@@ -116,7 +116,7 @@ footer {
 
 .contact-body {
     width: 66%;
-    height: 450px;
+    height: 455px;
     margin-left: 250px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
@@ -209,4 +209,15 @@ footer {
     color: #000;
     font-weight: bold;
     z-index: 2;
+}
+
+.form {
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+#your-name,
+#email {
+    line-height: 20px;
+    
 }

@@ -107,7 +107,7 @@ footer {
 
 .port-body {
     width: 66%;
-    height: 600px;
+    height: 450px;
     margin-left: 250px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
@@ -115,7 +115,6 @@ footer {
 }
 
 .contact-body {
-    clear: both;
     width: 66%;
     height: 450px;
     margin-left: 250px;
@@ -124,3 +123,45 @@ footer {
     position: relative;
 }
 
+#box-1, #box-2,
+#box-3, #box-4,
+#box-5 {
+    width: 200px;
+    height: 30px;
+    background-color: #4cccc5;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#image-1 {
+    position: absolute;
+    left: 140px;
+    top: 105px;
+    z-index: 1;
+}
+
+#image-2 {
+    position: absolute;
+    right: 410px;
+    top: 105px;
+    z-index: 1;
+}
+
+#image-3 {
+    position: absolute;
+    right: 140px;
+    top: 105px;
+    z-index: 1;
+}
+
+#image-4 {
+    position: absolute;
+    left: 275px;
+    bottom: 25px;
+}
+
+#image-5 {
+    position: absolute;
+    right: 275px;
+    bottom: 25px;
+}

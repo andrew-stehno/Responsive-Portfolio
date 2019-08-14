@@ -13,35 +13,31 @@ h2 {
 }
 
 .header {
+    overflow: hidden;
     background-color: #ffffff;
-    border-bottom: solid 2px #cccccc;
-    width: 100%;
-    height: 90px;      
+    border-bottom: solid 2px #cccccc; 
+    margin-bottom: 20px;    
 }
 
-#name {   
-    width: 350px;
-    height: 90px;
-    margin-left: 250px;
-    padding:20px 15px;
-    text-align: center;
-    box-sizing: border-box;
+.name, h1 {   
     color: #ffffff;
     background-color: #4aaaa5;
+    padding: 10px;
+    margin-left: 250px;
+    text-align: center;
     float: left;
-    position: relative;
-    top: -27px;
+}
+
+.list {
+    float: right;
+    margin-top: 20px;
+    margin-right: 245px;
 }
 
 li {
+    display: inline;
     list-style-type: none;
-    float: left;
-    margin-left: 20px;
-    padding-top: 40px;
-    padding-right: 20px;
-    display: block;
-    position: relative;
-    right: -350px;
+    padding: 20px;
     border-right: 1px solid #cccccc;
 }
 
@@ -63,15 +59,18 @@ a:active {
     padding: 8px;
     text-decoration: none;
 }
-/*
-@media screen and (max-width: 100%) {
-    .header a {
+
+@media screen and (max-width: 500) {
+    .header h1 {
         float: none;
         display: block;
         text-align: left;
     }
+    .list {
+        float: none;
+    }
 }
-*/
+
 .about, .port-body, .contact-body {
     clear: both;
 }

@@ -25,13 +25,33 @@
             <h2 id="contact">Contact</h2>
             <div class="form">
                 <form>
-                    Name<br>
-                    <input id="your-name" type="text" name="name" size="146.5"><br>
-                    Email<br>
-                    <input id="email" type="text" name="email" size="146.5"><br>
-                    Message<br>
-                    <textarea id="text-area" type="text" name="message" rows="9" cols="132"></textarea><br>
-                    <input type="submit" value="submit">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="name">Name</label><br>
+                        </div>
+                        <div class="col-75">
+                            <input id="your-name" type="text" name="name" placeholder="Name..."><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="Email">Email</label><br>
+                        </div>
+                        <div class="col-75">
+                            <input id="email" type="text" name="email" placeholder="Email..."><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="Message">Message</label><br>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="text-area" type="text" name="message" placeholder="Message..." style="height: 130px"></textarea><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="submit">
+                    </div>
                 </form>
             </div>
         </div>    

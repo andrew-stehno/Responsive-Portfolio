@@ -64,8 +64,10 @@ a:active {
 }
 
 .about {
-    width: 66%;
-    height: 450px;
+    max-width: 66%;
+    margin: auto;
+    overflow: auto;
+    max-height: 450px;
     margin-left: 250px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
@@ -120,7 +122,43 @@ footer {
     margin-left: 250px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
-    position: relative;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+} 
+
+label {
+    padding: 12px 12px 12px 0;
+}
+
+.col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 85%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
 
 #box-1, #box-2,

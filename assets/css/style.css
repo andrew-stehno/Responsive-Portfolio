@@ -188,37 +188,28 @@ input[type=submit] {
 }
 
 #image-1 {
-    
     margin-left: 20px;
     margin-bottom: 20px;
-    
 }
 
 #image-2 {
-    
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 #image-3 {
-    
     margin-left: 20px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 
 #image-4 {
-    
     margin-left: 20px;
     margin-bottom: 20px;
-    
 }
 
 #image-5 {
-    
     margin-left: 20px;
     margin-bottom: 20px;
-    
 }
 
 .banner-1 {
@@ -263,8 +254,8 @@ input[type=submit] {
 .banner-4 {
     position: absolute;
     float: left;
-    left: 20px;
-    top: 334px;
+    left: 680px;
+    top: 163px;
 }
     
 #box-4 {
@@ -276,7 +267,7 @@ input[type=submit] {
 .banner-5 {
     position: absolute;
     float: left;
-    left: 240px;
+    left: 20px;
     top: 334px;
 }
 
@@ -284,10 +275,6 @@ input[type=submit] {
     color: #000;
     font-weight: bold;
     z-index: 2;
-}
-
-.ft-r {
-    clear: both;
 }
 
 .form {
@@ -300,7 +287,43 @@ input[type=submit] {
     line-height: 20px; 
 }
 
-
+@media screen and (max-width: 1350px) {
+    .banner-4 {
+        position: absolute;
+        float: left;
+        left: 20px;
+        top: 334px;
+    }
+    .banner-5 {
+        position: absolute;
+        float: left;
+        left: 240px;
+        top: 334px;
+    }
+}
+@media screen and (max-width: 1014px) {
+    .banner-3 {
+        position: absolute;
+        float: left;
+        left: 20px;
+        top: 334px;
+    }
+    .banner-4 {
+        position: absolute;
+        float: left;
+        left: 240px;
+        top: 334px;
+    }
+    .banner-5 {
+        position: absolute;
+        float: left;
+        left: 20px;
+        top: 503px;
+    }
+    .port-body {
+        height: 570px;
+    }
+}
 @media screen and (max-width: 980px) {
     .header h1 {
         float: none;
@@ -341,7 +364,12 @@ input[type=submit] {
     .contact-body {
         margin: auto;
     }
-
+    #image-1, #image-2,
+    #image-3, #image-4,
+    #image-5 {
+        width: 180px;
+        height: 130px;
+    }
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -373,52 +401,6 @@ input[type=submit] {
         max-width: 100%;
         height: auto;
     }
-    
-    #box-1 {
-        position: absolute;
-        left: 7.5%;
-        top: 17%;
-        color: black;
-        font-weight: bold;
-        z-index: 2;
-    }
-    
-    #box-2 {
-        position: absolute;
-        left:7.5%;
-        top: 34.5%;
-        color: black;
-        font-weight: bold;
-        z-index: 2;
-    }
-    
-    #box-3 {
-        position: absolute;
-        left: 7.5%;
-        top: 52%;
-        color: #000;
-        font-weight: bold;
-        z-index: 2;
-    }
-    
-    #box-4 {
-        position: absolute;
-        left: 7.5%;
-        top: 70.5%;
-        color: #000;
-        font-weight: bold;
-        z-index: 2;
-    }
-    
-    #box-5 {
-        position: absolute;
-        left: 5%;
-        top: 88.5%;
-        color: #000;
-        font-weight: bold;
-        z-index: 2;
-    }
-    
     .contact-body {
         margin: auto;
     }

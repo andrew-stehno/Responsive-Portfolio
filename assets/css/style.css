@@ -370,6 +370,37 @@ input[type=submit] {
         width: 180px;
         height: 130px;
     }
+    #box-1, #box-2,
+    #box-3, #box-4,
+    #box-5 {
+        width: 180px;
+        height: 24px;
+    }
+    .banner-1 {
+        position: absolute;
+        left: 20px;
+        top: 149px;
+    }
+    .banner-2 {
+        position: absolute;
+        left: 220px;
+        top: 149px;
+    }
+    .banner-3 {
+        position: absolute;
+        left: 20px;
+        top: 297px;
+    }
+    .banner-4 {
+        position: absolute;
+        left: 220px;
+        top: 297px;
+    }
+    .banner-5 {
+        position: absolute;
+        left: 20px;
+        top: 445px;
+    }
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -400,6 +431,37 @@ input[type=submit] {
     .res-pic {
         max-width: 100%;
         height: auto;
+    }
+    #box-1, #box-2,
+    #box-3, #box-4,
+    #box-5 {
+        width: 180px;
+        height: 24px;
+    }
+    .banner-1 {
+        position: relative;
+        left: 20px;
+        top: -63px;
+    }
+    .banner-2 {
+        position: relative;
+        left: 20px;
+        top: -63px;
+    }
+    .banner-3 {
+        position: relative;
+        left: 20px;
+        top: -63px;
+    }
+    .banner-4 {
+        position: relative;
+        left: 20px;
+        top: -63px;
+    }
+    .banner-5 {
+        position: relative;
+        left: 20px;
+        top: -63px;
     }
     .contact-body {
         margin: auto;
